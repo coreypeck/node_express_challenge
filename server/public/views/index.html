@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Node/Express Challenge</title>
+    <script src="/vendor/jquery.min.js"></script>
+    <script src="/scripts/client-app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
+    <link rel="stylesheet" href="/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/styles.css"  />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Our Zoo Animals:</h1>
+      </header>
+      <h2>Add a Animal:</h2>
+      <form id="animal-form">
+        <div class="form-group">
+          <label for="animal_name">Animal:</label>
+          <input type="text" id="animal_name" name="animal_name" class="form-control" />
+        </div>
+        <button id="submit-animal" class="btn btn-default">Go</button>
+      </form>
+      <h2>Current Animals:</h2>
+      <div id="animal-list">
+
+      </div>
+    </main>
+
+  </body>
+</html>
